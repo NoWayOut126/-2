@@ -1,0 +1,23 @@
+#Задание 1
+import random
+a = random.randint(0, 100)
+b = random.randint(0, 100)
+c = random.randint(0, 100)
+print(a,b,c)
+e = (a+b+c)/3
+print("Среднее арифметическое:", e)
+#Задание 2
+import random
+a = random.randint(0, 100)
+b = random.randint(0, 100)
+print(a,b)
+c = a // b
+d = a % b
+print("Частное равно:", c)
+print("Остаток равен:", d)
+#Задание 3
+a = 15.124
+print(a)
+print(round(a, 2))
+print(round(a))
+print('15.124'.zfill(11))
